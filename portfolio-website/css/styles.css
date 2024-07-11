@@ -51,6 +51,7 @@ ul{
     max-width: 1100px;
     width:100%;
     margin: auto;
+    padding: 5px;
 }
 .section .container{
     padding-top: 60px;
@@ -385,6 +386,7 @@ h3.my-profession{
     flex: 0 0 45%;
     max-width: 50%;
     margin-top: 30px;
+    padding: 20px;
 }
 .about .about-content h3.title{
     font-size: 24px;
