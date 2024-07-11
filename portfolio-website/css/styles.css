@@ -523,6 +523,7 @@ h3.my-profession{
     flex: 0 0 30%;
     max-width: 30%;
     margin-bottom: 30px;
+    padding: 15px;
 }
 .portfolio .portfolio-item-inner{
     border: 6px solid var(--bg-black-100);
