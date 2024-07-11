@@ -461,6 +461,7 @@ h3.my-profession{
     margin-bottom: 30px;
     flex: 0 0 30%;
     max-width: 30%;
+    padding: 15px;
 }
 .service .service-item .service-item-inner{
     background-color: var(--bg-black-100);
