@@ -634,3 +634,242 @@ h3.my-profession{
     height: 50px;
     padding: 0 50px;
 }
+
+@media (max-width: 1199px) {
+    @media (max-width: 1199px) {
+        .about .about-content .education,
+        .about .about-content .experience{
+            flex: 0 0 30%;
+            max-width: 40%;
+            margin-top: 30px;
+            padding: 50px;
+            margin-left: 20px;
+    }
+        .service .service-item{
+            margin-bottom: 30px;
+            flex: 0 0 25%;
+            max-width: 25%;
+            padding: 25px;
+            margin-left: 25px;
+    }
+    .portfolio .portfolio-item{
+            flex: 0 0 25%;
+            max-width: 25%;
+            margin-bottom: 30px;
+            padding: 25px;
+            margin-left: 10px;
+    }
+        .container {
+            max-width: 960px;
+        }
+    
+        .main-content {
+            padding-left: 270px;
+        }
+    
+        .aside {
+            width: 250px;
+            padding: 20px;
+        }
+    
+        .aside .logo {
+            font-size: 24px;
+        }
+    
+        .nav li a {
+            font-size: 16px;
+            padding: 10px 15px;
+        }
+    
+        .home {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    
+        .home .text h1 {
+            font-size: 36px;
+        }
+    
+        .about .about-me {
+            padding: 20px;
+        }
+    
+        .about .about-me .content h2 {
+            font-size: 30px;
+        }
+    
+        .about .about-me .content p {
+            font-size: 16px;
+        }
+    
+        .service {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    
+        .service .service-item {
+            flex: 1 1 calc(33.333% - 20px);
+            padding: 15px;
+        }
+    
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    
+        .portfolio .portfolio-item {
+            flex: 1 1 calc(33.333% - 20px);
+            margin-bottom: 15px;
+        }
+    
+        .contact {
+            padding: 20px;
+        }
+    
+        .contact .contact-info div {
+            padding: 10px;
+        }
+    
+        .education, .experience {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    
+        .education .education-item, .experience .experience-item {
+            flex: 1 1 calc(50% - 20px);
+            padding: 10px;
+        }
+    }
+    
+
+}
+
+@media (max-width: 992px) {
+    .main-content {
+        padding-left: 0;
+    }
+
+    .aside {
+        position: static;
+        width: 100%;
+        height: auto;
+        border-right: none;
+    }
+
+    .aside .nav-toggler {
+        display: flex;
+    }
+
+    .aside .nav {
+        display: none;
+    }
+
+    .aside.active .nav {
+        display: block;
+    }
+
+    .home .text h1 {
+        font-size: 32px;
+    }
+
+    .about .about-me .content h2 {
+        font-size: 28px;
+    }
+
+    .about .about-me .content p {
+        font-size: 14px;
+    }
+
+    .service .service-item {
+        padding: 10px;
+    }
+
+    .portfolio .portfolio-item {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 15px;
+    }
+
+    .contact .contact-info div {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .home {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .home .text h1 {
+        font-size: 28px;
+    }
+
+    .about .about-me {
+        padding: 15px;
+    }
+
+    .about .about-me .content h2 {
+        font-size: 24px;
+    }
+
+    .about .about-me .content p {
+        font-size: 14px;
+    }
+
+    .service .service-item {
+        padding: 10px;
+    }
+
+    .portfolio .portfolio-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        padding: 10px;
+    }
+
+    .contact .contact-info div {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home .text h1 {
+        font-size: 24px;
+    }
+
+    .about .about-me .content h2 {
+        font-size: 20px;
+    }
+
+    .about .about-me .content p {
+        font-size: 12px;
+    }
+
+    .service .service-item {
+        padding: 5px;
+    }
+
+    .portfolio .portfolio-item {
+        margin-bottom: 5px;
+    }
+
+    .contact {
+        padding: 5px;
+    }
+
+    .contact .contact-info div {
+        padding: 3px;
+    }
+}
